@@ -32,7 +32,6 @@ header ,main{
 }
 
 #upper-main{
-    padding: 25px 0;
     width: 90%;
     margin: auto;
 }
@@ -44,6 +43,8 @@ header ,main{
     padding: 5px 10px;
     border-radius: 5px;
     margin: 20px 2px;
+    border: 1px solid lightgrey;
+    
 }
 
 .add#task{
@@ -51,13 +52,13 @@ header ,main{
 }
 
 .add#section{
-    border: 1px solid lightgrey;
+    background-color:#ffffff;
 }
 
 #center{
     width: 90%;
     margin:auto;
-    padding: 20px 0;
+    padding: 0 0 20px;
 }
 
 .block{
