@@ -8,7 +8,13 @@ body{
     background-color: #38aaff;
 }
 
-header{
+main{
+    width: 70%;
+    margin: 50px auto ;
+    border-radius: 10px;
+}
+
+header ,main{
     background-color: #ffffff;
 }
 
@@ -22,6 +28,62 @@ header{
 #logo-text{
     font-size: 50px;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
     vertical-align: middle;
+}
+
+#upper-main{
+    padding: 25px 0;
+    width: 90%;
+    margin: auto;
+}
+
+.add{
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 20px 2px;
+}
+
+.add#task{
+    background-color: #36aaf5;
+}
+
+.add#section{
+    border: 1px solid lightgrey;
+}
+
+#center{
+    width: 90%;
+    margin: 30px auto;
+    height: 300px;
+}
+
+strong{
+    font-size: 25px;
+}
+
+.confirm::before{
+    content: '\2714';
+    font-size: 20px;
+}
+
+.green-confirm::before{
+    content: '\2713';
+    font-size: 10px;
+    color:#2cc6ab;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.text{
+    font-size: 20px;
+}
+
+.info{
+    background-color: #38aaff;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 15px;
 }
