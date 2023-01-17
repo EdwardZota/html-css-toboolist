@@ -55,6 +55,13 @@ header ,main{
     background-color:#ffffff;
 }
 
+hr {
+    border: none;
+    height: 1px;
+    background-color: lightgrey;
+ 
+}
+
 #center{
     width: 90%;
     margin:auto;
